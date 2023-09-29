@@ -1,1 +1,135 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 92px 50px;
+  background-color: #fff;
+}
+
+.header_logo-image {
+  display: block;
+}
+
+.header_logo {
+  display: block;
+  width: 140px;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+}
+
+.header_links_list {
+  display: flex;
+}
+
+.header_links-list-item {
+  padding-right: 32px;
+  text-underline-position: under;
+  list-style-type: circle;
+}
+
+.header_links-list-item:nth-child(1n + 3) {
+  padding-right: 0;
+}
+
+.header_links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header_link_active_no-underline {
+  text-decoration: none;
+}
+
+.header_link_active {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0 7px 150px;
+}
+
+.header_link {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  text-underline-position: under;
+}
+
+.cover {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 165px;
+}
+
+.cover_title {
+  padding: 0 50px 0 50px;
+  color: black;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  letter-spacing: 30px;
+}
+
+.aligned-text_center {
+  width: 1280px;
+  padding: 20px 110px 20px 170px;
+  line-height: 100%;
+  letter-spacing: 30px;
+  text-align: center;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.aligned-text_right {
+  padding: 0 0 147px 924px;
+  line-height: 100%;
+  letter-spacing: 60px;
+  text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 30px;
+}
+
+.cover_description {
+  display: flex;
+  gap: 80px;
+  padding: 0 50px 0px 422px;
+  word-spacing: 17.5px;
+}
+.cover_description-text {
+  color: black;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  position: relative;
+  bottom: 10px;
+  width: 257px;
+  height: 52px;
+  border: 1px solid #000000;
+}
