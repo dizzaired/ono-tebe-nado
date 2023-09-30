@@ -67,14 +67,16 @@
 }
 
 .cover {
-  max-width: 1440px;
+  max-width: 1440px; min-height: 757px;
   margin: 0 auto;
   padding-top: 165px;
+  background-image: url(/images/cover.jpg);
+  background-size: 100%;
 }
 
 .cover_title {
   padding: 0 50px 0 50px;
-  color: black;
+  color: #FFF;
   font-family: Raleway;
   font-weight: 700;
   font-size: 100px;
@@ -117,7 +119,7 @@
   word-spacing: 17.5px;
 }
 .cover_description-text {
-  color: black;
+  color: #fff;
   font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
@@ -131,5 +133,7 @@
   bottom: 10px;
   width: 257px;
   height: 52px;
-  border: 1px solid #000000;
+  border: 1px solid #FFF;
+  background-color: transparent;
 }
+
