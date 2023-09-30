@@ -67,11 +67,12 @@
 }
 
 .cover {
-  max-width: 1440px; min-height: 757px;
+  max-width: 1440px; 
+  min-height: 757px;
   margin: 0 auto;
-  padding-top: 165px;
   background-image: url(/images/cover.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .cover_title {
@@ -137,3 +138,10 @@
   background-color: transparent;
 }
 
+.overlay {
+  max-width: 1440px; 
+  min-height: 757px;
+  margin: 0 auto;
+  background: #000;
+  opacity: 0.6;
+}
