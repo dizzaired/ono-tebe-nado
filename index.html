@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/global.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
     <header class="header">
-      <nav class="header_menu">
+      <nav class="header__menu">
         <ul class="header_links_list">
           <li class="header_links-list-item header_links-list-item_no-bullit">
             <a
@@ -28,21 +28,17 @@
           </li>
         </ul>
       </nav>
-      <div class="header_logo-image">
-        <a class="header_logo">
-          <img
-            class="header_logo-image"
-            src="/images/logo-black.svg"
-            alt="Логотип сайта"
-          />
-        </a>
-      </div>
-      <div class="contacts">
+      <a class="header_logo">
+        <img
+          class="header_logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип сайта"
+        />
+      </a>
+      <div class="address">
         <a class="header_link" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="header_link" href="info@sobaka.ge">info@sobaka.ge</a>
-        <address class="header_link">
-          наб. Принсенграхт 263-265, Амстердам
-        </address>
+        <p class="header_link">наб. Принсенграхт 263-265, Амстердам</p>
       </div>
     </header>
     <main>
@@ -64,18 +60,16 @@
           <p class="cover_description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="cover_description-text bet-button">
-            сделать ставку
-          </button>
+          <button class="bet-button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
-        <h1 class="lots_heading">Лоты</h1>
+        <h2 class="lots_heading">Лоты</h2>
         <ul class="lots_card-list">
           <li class="lots_card-list-item">
-            <div class="overlay_lots"></div>
             <a href="#0" class="card-link">
-              <article class="card_type-film">
+              <article class="card_type card_type-film">
+                <div class="overlay_lots"></div>
                 <h3 class="card_title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -88,9 +82,9 @@
             </a>
           </li>
           <li class="lots_card-list-item">
-            <div class="overlay_lots"></div>
             <a href="#0" class="card-link">
-              <article class="card_type_book">
+              <article class="card_type card_type_book">
+                <div class="overlay_lots"></div>
                 <h3 class="card_title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -106,9 +100,9 @@
             </a>
           </li>
           <li class="lots_card-list-item">
-            <div class="overlay_lots"></div>
             <a href="#0" class="card-link">
-              <article class="card_type_picture">
+              <article class="card_type card_type_picture">
+                <div class="overlay_lots"></div>
                 <h3 class="card_title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -128,12 +122,12 @@
         <div class="about_logo">
           <img
             class="about_logo-image"
-            src="/images/logo-white.svg"
+            src="./images/logo-white.svg"
             alt="Логотип сайта"
           />
         </div>
         <div class="about_column">
-          <h3 class="about_title">Об аукционе</h3>
+          <h2 class="about_title">Об аукционе</h2>
           <p class="about_text">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -153,12 +147,12 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer_contacts">
+      <div class="address">
         <a class="footer_link" href="tel:+99995555555">+9 999 555 5555</a>
         <a class="footer_link" href="info@sobaka.ge">info@sobaka.ge</a>
-        <address class="footer_link">
+        <p class="footer_link">
           наб. Принсенграхт 263-265, Амстердам
-        </address>
+        </p>
       </div>
       <nav class="footer_menu">
         <ul class="footer_menu-list">
@@ -180,7 +174,7 @@
           <a class="footer_social-link" href="0#">
             <img
               class="footer_social-icon"
-              src="/images/yt.svg"
+              src="./images/yt.svg"
               alt=":Мы на ютубе"
             />
           </a>
@@ -189,7 +183,7 @@
           <a class="footer_social-link" href="0#">
             <img
               class="footer_social-icon"
-              src="/images/vk.svg"
+              src="./images/vk.svg"
               alt="Мы вконтакте"
             />
           </a>
@@ -198,7 +192,7 @@
           <a class="footer_social-link" href="0#">
             <img
               class="footer_social-icon"
-              src="/images/pinterest.svg"
+              src="./images/pinterest.svg"
               alt="Мы на пинтерсете"
             />
           </a>
