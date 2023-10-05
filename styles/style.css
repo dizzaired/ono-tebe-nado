@@ -51,6 +51,7 @@
 }
 
 .contacts {
+  width: 390px;
   display: flex;
   flex-direction: column;
   padding: 5px 0 7px 150px;
@@ -313,6 +314,7 @@
 }
 
 .footer_contacts {
+  width: 240px;
   display: flex;
   flex-direction: column;
 }
