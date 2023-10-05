@@ -69,7 +69,7 @@
 
 .cover {
   max-width: 1440px;
-  min-height: 757px;  
+  min-height: 757px;
   margin: 0 auto;
   background-image: url(/images/cover.jpg);
   background-repeat: no-repeat;
@@ -153,7 +153,7 @@
 }
 
 .lots {
-  max-width: 1340px; 
+  max-width: 1340px;
   max-height: 805px;
   margin: 0 auto;
   padding-top: 180px;
@@ -203,8 +203,8 @@
   font-size: 22px;
   line-height: 120%;
   text-decoration-line: underline;
-  text-transform: uppercase;
   text-underline-position: under;
+  text-transform: uppercase;
 }
 
 .card_text {
@@ -283,7 +283,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  border-radius: 120px;;
+  border-radius: 120px;
   background-color: #000;
 }
  
